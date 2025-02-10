@@ -1,3 +1,5 @@
+"use client"
+
 import { useEffect, useState } from "react";
 
 interface Notification {
@@ -27,6 +29,7 @@ export default function NotificationOverlay() {
 
   return (
     <div className="fixed top-5 right-5 p-4 bg-black text-white rounded-lg shadow-lg transition-opacity duration-500" style={{ opacity: notification ? 1 : 0 }}>
+      <div>Holi</div>
       {notification ? (
         <div>
           <h3 className="text-lg font-bold">{notification.title}</h3>
