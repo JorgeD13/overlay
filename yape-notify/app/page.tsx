@@ -1,4 +1,4 @@
-import NotificationOverlay from "@/components/NotificationOverlay";
+import NotificationOverlay from "../components/NotificationOverlay";
 
 export default function App() {
   return (
